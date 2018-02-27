@@ -1,7 +1,7 @@
 header {
   height: 400px;
   width: 100%;
-  background-color: rgb(225, 142, 30);
+  background-color: rgb(145, 111, 145)
   padding: 10, 30, 30, 10;
   position: absolute;
   text-align: center;
@@ -29,9 +29,10 @@ header {
     margin: auto;
     font-size: 45px;
     text-align: center;
-    top: 0;
     width: 100%;
-    position: absolute;
+    position: relative;
+    clear: both;
+  
 
 
   }
@@ -40,9 +41,10 @@ header {
 
 
 body {
+  position: static;
   height: 3000px;
   width: 75%;
-  margin: 2.5%;
+  font-family:"glass Antiqua";
   background-image: url("../pictures/background_one.jpg");
   background-origin: inherit;
   background-size: 3000px;
