@@ -1,80 +1,80 @@
 
-
-  }
-  .navbar {
-    max-width: 100%;
-    max-height: 80px;
-    background-color: teal;
-    box-shadow: 0px 8px 3px #777;
-
-  }
-  .navbar > img {
-    max-width: inherit;
-    max-height: inherit;
-    float: left;
-  }
-.navbar_element  {
-    text-align: center;
-    display: inline-block;
-    font-size: 40px;
-    margin: 10px 50px;
+.header {
+  height: 600px;
+  padding-top: 50px;
+  background: #f07057;
 }
-
-/*can't change colour within .navbar_element so use link instead - works the same */
-.navbar_element > a {
-  color: red;
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
-
-}
-
-
-#myCarousel {
-    margin-top: auto;
-
-}
-
-
-
-.carousel-caption {
-    z-index: 10;
-}
-
 .carousel .item {
     width: 100%;
     height: 600px;
     background-color: rgb(122, 163, 135);
+    z-index: -1;
 }
-.carousel-inner >  > img {
-    position: absolute;
+.carousel-inner > img {
     top: 0;
     left: 0;
     min-width: 100%;
     min-height: 100%;
     height: auto;
+    z-index: -1;
 }
- .arrow {
-   display: block;
-   margin-left: 44%;
+.arrow {
+  display: block;
+  margin-left: 44%;
+  position: relative;
+  z-index: -1;
+}
+.header,
+.navbar-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.navbar {
+    max-width: 100%;
+    max-height: 80px;
+    background-color: teal;
+    box-shadow: 0px 8px 3px #777;
+    position: relative;
+    z-index: 150;
+}
+.navbar-scrolled,
+  #myCarousel{
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 
 
- }
+.main {
+  background: #f2f2e8;
+  padding: 110px 50px 50px;
+  column-count: 2;
+  column-gap: 40px;
+  z-index: 100;
+}
+
+
+
+
+
+
 
 
 
 body {
+  padding-top: 600px;
 
   height: 3000px;
   width: 100%;
   font-family:"glass Antiqua";
-  background-image: url("../pictures/background_one.jpg");
+
   background-size: 3000px;
   background-position: center;
   background-repeat: no-repeat;
   font-size: 70px;
   max-width: 100%;
   overflow-x: hidden;
+
 }
