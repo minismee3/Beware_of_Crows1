@@ -1,7 +1,14 @@
-.page-header {
-  background-color: rgb(71, 175, 184);
-  border-width: thick;
-  border-color: black;
-  margin-top: 3;
-  font-family: "courgette";
+.nav  {
+  font-size: 30px;
+  height: 40px;
+
+  align-content: center;
+
+}
+
+.nav li {
+  margin-right: 30px;
+}
+.navbar-left {
+  align: right;
 }
