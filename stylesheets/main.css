@@ -1,0 +1,16 @@
+.navbar-nav {
+  font-size: 30px;
+  height: 40px;
+  color: blue;
+  align-content: center;
+
+}
+
+.li {
+  margin-right: 30px;
+  float: left;
+  color: red;
+}
+.input-group-btn {
+  align: right;
+}
