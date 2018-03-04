@@ -1,24 +1,27 @@
 .navbar-nav {
   font-size: 30px;
-  height: 40px;
-
+  height: 100px;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  z-index: 150;
+  
 
 
 }
+.resized {
+  height: 30px;
 
+}
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+      height:30px;
+    }
 
-}
-.input-group-btn {
-  align: right;
-}
-.input-group {
-  float: right;
-}
 
 @media only screen and (min-width: 768px) {{
      .navbar {
        display:inline block;
-}
-body {
-  background-color: red;
 }
