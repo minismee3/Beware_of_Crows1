@@ -1,27 +1,14 @@
-.navbar-nav {
+.nav  {
   font-size: 30px;
-  height: 100px;
-  display: inline-block;
-  width: 100%;
-  position: relative;
-  z-index: 150;
-  
+  height: 40px;
 
+  align-content: center;
 
 }
-.resized {
-  height: 30px;
 
+.nav li {
+  margin-right: 30px;
 }
-.affix {
-      top: 0;
-      width: 100%;
-      z-index: 9999 !important;
-      height:30px;
-    }
-
-
-@media only screen and (min-width: 768px) {{
-     .navbar {
-       display:inline block;
+.navbar-left {
+  align: right;
 }
