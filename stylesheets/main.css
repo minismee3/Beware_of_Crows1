@@ -5,15 +5,19 @@
   align-content: center;
   z-index: 10;
   width: 100%;
+  padding: 15px;
+  box-shadow:10px 10px 10px gray;
+  color: orange;
+
+
 }
 .resized {
-  height:30px;
-  font-size: 30px;
-  animation-duration: 0.8s;
-  animation-name: fadeIn;
+  height:40px;
+  font-size: 20px;
+  padding-bottom: 40px;
 }
 
 
 .nav li {
-  margin-right: 30px;
+
 }
