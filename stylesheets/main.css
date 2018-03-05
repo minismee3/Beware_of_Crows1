@@ -1,14 +1,19 @@
-.nav  {
-  font-size: 30px;
-  height: 40px;
-
+.navbar  {
+  font-size: 50px;
+  height: 100px;
+  top: 0;
   align-content: center;
-
+  z-index: 10;
+  width: 100%;
 }
+.resized {
+  height:30px;
+  font-size: 30px;
+  animation-duration: 0.8s;
+  animation-name: fadeIn;
+}
+
 
 .nav li {
   margin-right: 30px;
-}
-.navbar-left {
-  align: right;
 }

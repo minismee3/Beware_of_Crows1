@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 html {
   height: 100%;
@@ -10,8 +9,7 @@ html {
   border: 7px black double;
   width: 75%;
   margin-left: 15%;
-background-color: gray;
-
+  background-color: gray;
 
 }
 .container {
@@ -46,105 +44,25 @@ background-color: gray;
   overflow: hidden;
   margin: 0;
 }
-=======
-html {
-  min-height: 100%;
-}
-.header {
-  height: 400px;
-  padding-top: 80px;
-  width: 100%;
-  height: 600px;
-  background-color: rgb(122, 163, 135);
-  z-index: -1 !important;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  border-style: solid;
-}
-.carousel .item {
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    height: auto;
-    z-index: -1;
->>>>>>> bd1775a4c96f8a79c98e6f2f9f0385e6babccd6f
-}
+
 .arrow {
   display: block;
   margin-left: 44%;
-<<<<<<< HEAD
   position: auto;
   z-index: -1;
 }
 
-
-
-
-}
   .main {
-  background-color: rgb(219, 241, 122);
-  padding-top: 60px;
-  padding-bottom: 60px;
   bottom: 0;
-  }
+}
+
   .clr{
   clear:both;
-  }
+}
+
 body {
   width: 100%!important;
   font-family:"glass Antiqua";
-=======
-  position: relative;
-  z-index: -1;
-}
-
-.navbar {
-  display: inline-block;
-    width: 100%;
-    height: 60px;
-    position: relative;
-    z-index: 150;
-    background-color: #F8F8F8;
-    border: solid;
-    box-shadow: 0px 8px 3px #777;
-
-
-}
-
-
-.sticky {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
-    z-index: 100;
-    border-top: 0;
-}
-
-
-.main {
-background-color: rgb(219, 241, 122);
-padding-top: 30px;
-bottom: 0;
-
-}
-
-
-
-
-
-
-
-
-
-body {
-  padding-top: 600px;
-  width: 100%;
-  font-family:"glass Antiqua";
-
->>>>>>> bd1775a4c96f8a79c98e6f2f9f0385e6babccd6f
   background-size: 3000px;
   background-position: center;
   background-repeat: no-repeat;
@@ -152,12 +70,9 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   margin: 0 0 100px;
-<<<<<<< HEAD
   position: relative;
-  background-color: blue;
-
-
-  }
+  z-index: -1;
+}
 
 #section1, #section2, #section3, #section4 {
   height: 800px;
@@ -174,8 +89,8 @@ body {
 }
 .piccies img {
   border-radius: 5px;
-   cursor: pointer;
-   transition: 0.3s;
+  cursor: pointer;
+  transition: 0.3s;
 }
 .piccies img:hover {
   opacity: 0.7;
@@ -188,20 +103,3 @@ h2 {
   text-align: center;
   font-weight: bold;
 }
-
-     }
-=======
-
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
-
-}
->>>>>>> bd1775a4c96f8a79c98e6f2f9f0385e6babccd6f
