@@ -1,17 +1,24 @@
 
-<!--carousel changes pics-->
+//carousel changes pics//
 $('#myCarousel').each(function() {
     $(this).carousel({
         interval: false
     });
 });
 
-<!-- resizes navbar on scroll-->
+//resizes navbar on scroll//
 $(window).scroll(function (event) {
             var y = $(this).scrollTop(); //set position from top in pixels
-            if (y >= 675) {
+            if (y >= 690) {
                 $('.navbar').addClass('resized');
             } else {
                 $('.navbar').removeClass('resized');
             }
         });
+        $(function(){
+           // When the toggle areas in your navbar are clicked, toggle them
+           $("#search-button, #search-icon").click(function(e){
+               e.preventDefault();
+               $("#search-button, #search-form").toggle();
+           });
+        })

@@ -1,23 +1,43 @@
 .navbar  {
-  font-size: 50px;
+  font-size: 45px;
   height: 100px;
   top: 0;
   align-content: center;
   z-index: 10;
   width: 100%;
-  padding: 15px;
+  padding-top:5px;
   box-shadow:10px 10px 10px gray;
-  color: orange;
+  border: outset rgb(94, 74, 119);
 
+}
+.navbar img {
+  height:100px;
+  width:300px;
+  float:left;
+  margin-right: 100px;
 
 }
 .resized {
-  height:40px;
-  font-size: 20px;
-  padding-bottom: 40px;
-}
-
-
-.nav li {
+  height:70px;
+  font-size: 30px;
 
 }
+.resized img {
+  height:70px;
+  width:140px;
+  margin-right: 160px;
+}
+li {
+  font-family: 'Graduate', cursive;
+}
+.resized li {
+  margin-right: 50px;
+}
+#search-form {
+  display: none;
+}
+@media screen and (max-width: 400px) {
+    #search-form{
+      display: none;
+    }
+    }

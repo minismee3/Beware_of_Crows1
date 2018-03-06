@@ -65,15 +65,15 @@ html {
 body {
   width: 100%!important;
   font-family:"glass Antiqua";
-  background-size: 3000px;
-  background-position: center;
-  background-repeat: no-repeat;
+
+
   font-size: 70px;
   max-width: 100%;
   overflow-x: hidden;
-  margin: 0 0 100px;
+
   position: relative;
   z-index: -1;
+  padding-bottom: 40px;
 }
 
 #section1, #section2, #section3, #section4 {
@@ -82,7 +82,7 @@ body {
 
 }
 #section1 {
-  height:1200px;
+ background: linear-gradient(rgba(155, 60, 218, 0), rgba(104, 83, 142, 1));
 }
 #section1 img {
   height: 400px;
