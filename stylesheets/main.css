@@ -10,24 +10,10 @@
   border: outset rgb(94, 74, 119);
   text-transform: uppercase;
 
-}
-span .glyphicon-home {
-  margin-right: 40px;
-}
-
-}
-
-}
-li {
-
 
 }
 #search-form {
   display: none;
 }
-@media screen and (max-width: 400px) {
-    #search-form{
-      display: none;
-    }
-    font-family: 'EB Garamond', serif;
-  font-family: 'Courgette', cursive;
+
+  

@@ -6,15 +6,7 @@ $('#myCarousel').each(function() {
     });
 });
 
-//resizes navbar on scroll//
-
-           // When the toggle areas in your navbar are clicked, toggle them
-           $("#search-button, #search-icon").click(function(e){
-               e.preventDefault();
-               $("#search-button, #search-form").toggle();
-           });
-        })
-
+//picture upload button///
         $(function () {
             $('#fileupload').fileupload({
                 dataType: 'json',
@@ -25,3 +17,12 @@ $('#myCarousel').each(function() {
                 }
             });
         });
+
+        // toggle searchbar//
+           $(function(){
+
+              $("#search-button, #search-icon").click(function(e){
+                  e.preventDefault();
+                  $("#search-button, #search-form").toggle();
+              });
+           })
