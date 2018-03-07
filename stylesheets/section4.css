@@ -5,14 +5,27 @@
   background: linear-gradient(rgba(68, 21, 69, 0), rgba(66, 23, 85, 1));
 
 }
+#section4 h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 40px;
+}
+.hr2 {
+  border-color:rgb(102, 3, 129);
+  margin-right: 250px;
+  margin-left: 250px;
+  border-width: 5px;
+  border-style: outset;
+
+}
 form {
   left:0 auto;
 }
-}
+
 .fa {
   padding: 20px;
-  font-size: 30px;
-  width: 50px;
+  font-size: 40px;
+  width: 60px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -25,7 +38,15 @@ form {
 .fa-facebook {
   background: #3B5998;
   color: white;
+
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
 
-
+.bar {
+    height: 18px;
+    background: green;
+}
 }

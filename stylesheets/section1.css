@@ -1,21 +1,24 @@
-#section1 {
- background: linear-gradient(rgba(155, 60, 218, 0), rgba(104, 83, 142, 1));
- width: 100%;
- padding-top: 130px;
+#section1{
+  margin-top: 120px;
+  text-align: center;
+  line-height: 200%;
+  padding-top:140px;
 }
-#section1 img {
+#section1 h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 40px;
+}
+#section1 hr {
+  border-color:rgb(102, 3, 129);
+  margin-right: 250px;
+  margin-left: 250px;
+  border-width: 5px;
+  border-style: outset;
+}
+#section1 img{
   height: 400px;
   width:100%;
-  border: 3px inset red;
-  align: middle;
-  margin-top: 40px;
+  border: 5px outset;
 
-}
-.piccies img {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-.piccies img:hover {
-  opacity: 0.7;
 }
