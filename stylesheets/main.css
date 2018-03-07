@@ -11,12 +11,11 @@
   text-transform: uppercase;
 
 }
-.navbar img {
-  height:80px;
-  width:200px;
-  float:left;
-  margin-right: 100px;
+span .glyphicon-home {
+  margin-right: 40px;
+}
 
+}
 
 }
 li {
