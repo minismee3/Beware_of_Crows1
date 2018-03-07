@@ -1,6 +1,6 @@
 .navbar  {
   font-size: 20px;
-  height: 80px;
+  height: 60px;
   top: 0;
   margin-right: 20px;
   z-index: 10;
@@ -9,11 +9,12 @@
   box-shadow:10px 10px 10px gray;
   border: outset rgb(94, 74, 119);
   text-transform: uppercase;
-
-
 }
+
 #search-form {
   display: none;
 }
 
-  
+.navbar-left {
+  margin-right: 70px;
+}
