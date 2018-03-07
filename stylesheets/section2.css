@@ -1,5 +1,4 @@
 #section2 {
- background: linear-gradient(rgba(155, 60, 218, 0), rgba(104, 83, 142, 1));
  width: 100%;
  padding-top: 130px;
 }
@@ -7,12 +6,11 @@
 #section2 img {
   height: 400px;
   width:100%;
-  border: 3px inset;
   align: middle;
   margin-top: 40px;
 }
 .piccies img {
-  border-radius: 5px;
+
   cursor: pointer;
   transition: 0.3s;
 }
