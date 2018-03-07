@@ -2,13 +2,19 @@
   font-size: 20px;
   height: 60px;
   top: 0;
-  margin-right: 20px;
   z-index: 10;
   width: 100%;
   padding-top:5px;
   box-shadow:10px 10px 10px gray;
   border: outset rgb(94, 74, 119);
   text-transform: uppercase;
+
+}
+.navbar.container{
+  width:100%;
+}
+.navbar-nav li {
+  margin-right: 30px;
 }
 
 #search-form {
@@ -17,4 +23,5 @@
 
 .navbar-left {
   margin-right: 70px;
+  
 }
