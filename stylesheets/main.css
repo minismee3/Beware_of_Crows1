@@ -1,9 +1,8 @@
 .navbar  {
-  font-size: 30px;
+  font-size: 20px;
   height: 80px;
   top: 0;
   margin-right: 20px;
-  align-content: center;
   z-index: 10;
   width: 100%;
   padding-top:5px;
