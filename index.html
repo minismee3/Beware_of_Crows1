@@ -12,9 +12,13 @@
   <link rel="stylesheet" href="stylesheets/main.css">
   <link rel="shortcut icon" href="pictures/favicon.ico" type="image/x-icon">
   <link rel="icon" href="pictures/favicon.ico" type="image/x-icon">
-  <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Glass Antiqua' rel='stylesheet'>
   <link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="stylesheets/section1.css">
+  <link rel="stylesheet" href="stylesheets/section2.css">
+  <link rel="stylesheet" href="stylesheets/section3.css">
+  <link rel="stylesheet" href="stylesheets/section4.css">
+
 
 
   <script src="js/jquery-3.2.1.min.js"></script>
@@ -36,23 +40,35 @@
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
+
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
+      <!--Slide One -->
       <div class="item active">
         <a href="#">
         <img src="pictures/logo_two.jpg" alt="1" style="height:700px; width: 100%;">
         <div class="carousel-caption">
-          <p> </p>
+          <h2>CUSTOM, HANDPAINTED SKATEBOARDS </h2>
         </div>
       </a>
       </div>
+      <!--Slide Two-->
       <div class="item">
+        <a href="#section1">
         <img src="pictures/carousel_two.jpg" alt="2" style="width:100%; height:700px;">
-      </div>
-      <div class="item">
-        <img src="pictures/carousel_one.jpg" alt="New york" style="width:100%; height:510px;">
+        <div class="carousel-caption">
+          <p></p>
       </div>
     </div>
+    <!--SlideThree -->
+      <div class="item">
+        <a href="#section3">
+        <img src="pictures/carousel_one.jpg" alt="New york" style="width:100%; height:700px;">
+        <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
@@ -64,12 +80,6 @@
     </a>
   </div>
 <!--/carousel-->
-
-
-<div class= "arrow">
-  <img src= "pictures/down.jpg" alt="arrow" style="width:70px; height:70px">
-</div>
-<div class="clr"></div>
 </div>
 
 
@@ -101,8 +111,8 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="#section1">Page 1</a></li>
         <li><a href="#section2">Page 2</a></li>
-        <li><a href="#section3">Page 3</a></li>
-        <li><a href="#section4">Page 4</a></li>
+        <li><a href="#section3">About us</a></li>
+        <li><a href="#section4">Contact us</a></li>
       </ul>
 
 
@@ -119,6 +129,7 @@
 <div class="main">
   <div id="section1"> <!--first page - thinking maybe showing off the skateboards in a kinda clickable gallery?-->
     <div class = "container">
+
       <div class = "row">
         <div class="col-xs-12">
           <h1 style="font-size:50px" align="center">Skateboards
@@ -199,33 +210,51 @@
 </div>
 
 <div id="section4">
-  <div class= "container">
-    <div class= "row">
-      <div class= "col-xs-12">
-        <h1>hellllllllo</h1>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  <section id="contact" class="content-section text-center">
+        <div class="contact-section">
+            <div class="container">
+              <h2>Contact Us!</h2>
+              <p>For any enquiries, drop us an email or Facebook message, or give us a call.</p>
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                  <form class="form-horizontal">
+                    <div class="form-group">
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                      <input type="text" class="form-control" id="name_input" placeholder="Name">
+                    </div>
+                    <div class="form-group">
 
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                      <input type="email" class="form-control" id="email_input" placeholder="Email">
+                    </div>
+                    <div class="form-group ">
 
-Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                     <textarea  class="form-control" placeholder="Description" style="height:200px;"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Send</button>
+                  </form>
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.
+                  <hr>
 
-At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
 
-Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    <a href="#" class="fa fa-facebook"></a>
 
-      </div>
+
+                </div>
+              </div>
+            </div>
+          <div>
+      </section>
     </div>
-  </div>
+
+
+
+    <div class='item footer-item footer-item-3 footer-social'>
+           <div class='custom-html-content'>
+             <div class="social">
+               <h4 class="title">Follow Us</h4>
 </div>
 </div>
-
-
-
-
+</div>
 
 </body>
 </html>
