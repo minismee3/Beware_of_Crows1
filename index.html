@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="stylesheets/main.css">
-  <link rel="shortcut icon" href="pictures/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="pictures/favi.ico" type="image/x-icon">
   <link rel="icon" href="pictures/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="stylesheets/section1.css">
@@ -47,7 +47,7 @@
         <a href="#">
         <img src="pictures/Black_and_whiteboard.jpg" alt="1" style="height:700px; width: 100%;">
         <div class="carousel-caption">
-          <h2>CUSTOM, HANDPAINTED SKATEBOARDS </h2>
+          <p>CUSTOM, HANDPAINTED SKATEBOARDS </p>
         </div>
       </a>
       </div>
@@ -89,6 +89,19 @@
 <!--navbar -->
 <nav class="navbar navbar-default" data-spy="affix" data-offset-top="700">
   <div class="container-fluid">
+    <!--making it good for smaller screens-->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <button id='search-button' class="navbar-toggle" data-toggle "collapse" data-target=".navbar-collapse"><span class='glyphicon glyphicon-search'></span></button>
+      <button type="button" class="navbar-toggle navbar-left" data-toggle "collapse" data-target=".navbar-collapse"><span class='glyphicon glyphicon-home'></span></button>
+
+    </div>
+
     <form class="navbar-form navbar-right" role="search">
         <!-- Search button-->
         <button id='search-button' class='btn btn-default '><span class='glyphicon glyphicon-search'></span></button>
@@ -101,15 +114,12 @@
       </form>
       <!--Home button-->
       <ul class="nav navbar-nav navbar-left">
-        <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-    </ul>
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
+       <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+   </ul>
+
+
+
+
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#section1">About Us</a></li>
@@ -137,7 +147,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h1>Welcome to</br> Beware of Crows</h1><hr>
+          <h1><strong>Welcome to</br> Beware of Crows</strong></h1><hr>
         </div>
         <div class="col-md-6">
           <p>Based in the West End of Glasgow, we are a small business specialising in custom designed and handpainted skateboard decks. We offer an array of sizes, colours and graphics to suit your style. </p>

@@ -2,7 +2,7 @@
 html {
   height: 100%;
   width: 100%;
-  
+
 
 
 }
@@ -61,7 +61,6 @@ html {
 
 body {
   width: 100%!important;
-
   font-size: 70px;
   max-width: 100%;
   overflow-x: hidden;
