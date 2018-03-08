@@ -3,6 +3,7 @@
   text-align: center;
   line-height: 200%;
   padding-top:80px;
+  font-size:20px;
 }
 #section1 h1 {
   text-transform: uppercase;
@@ -11,8 +12,8 @@
 }
 #section1 hr {
   border-color:rgb(102, 3, 129);
-  margin-right: 250px;
-  margin-left: 250px;
+  margin-right: 100px;
+  margin-left: 100px;
   border-width: 5px;
   border-style: outset;
 }
