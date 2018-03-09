@@ -8,20 +8,20 @@
 #section4 h1 {
   text-transform: uppercase;
   letter-spacing: 0.25em;
-  font-size: 40px;
+  font-size: 50px;
 }
-.hr2 {
-  border-color:rgb(102, 3, 129);
+#section4 hr {
+  border-color:rgb(24, 151, 237);
   margin-right: 250px;
   margin-left: 250px;
-  border-width: 5px;
-  border-style: outset;
+  border-width: 3px;
+
 
 }
 form {
   left:0 auto;
 }
 .fa {
-  height: 40px;
+
 
 }

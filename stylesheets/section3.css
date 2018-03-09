@@ -4,3 +4,23 @@
   align: middle;
   margin-top: 40px;
 }
+
+#section3 {
+  padding-top: 100px;
+}
+
+#section3 h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 50px;
+  text-align: center;
+}
+
+/*the line under the heading*/
+#section3 hr {
+  border-color:rgb(255, 161, 0);
+  margin-right: 200px;
+  margin-left: 200px;
+  border-width: 3px;
+  
+}
