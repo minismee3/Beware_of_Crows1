@@ -1,7 +1,16 @@
+
 #section3 img {
-  width:400px;
+  width:100%;
   height: "*";
-  align: middle;
+  align: center;
+  margin-top: 40px;
+}
+
+
+#section3 p1 {
+  width:100%;
+  height: "*";
+  align: text-center;
   margin-top: 40px;
 }
 
