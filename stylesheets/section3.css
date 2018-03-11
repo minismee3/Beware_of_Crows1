@@ -7,15 +7,13 @@
   margin-bottom: 40px;
 }
 
-
 #section3 p1 {
   width:100%;
   height: "*";
   align: text-center;
   margin-top: 40px;
+  font-size: 30px
 }
-
-
 
 #section3 {
   padding-top: 100px;
@@ -27,6 +25,7 @@
   font-size: 50px;
   text-align: center;
 }
+
 
 /*the line under the heading*/
 #section3 hr {
