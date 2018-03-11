@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="stylesheets/main.css">
 <link rel="shortcut icon" href="pictures/favi.ico" type="image/x-icon">
 <link rel="icon" href="pictures/favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="stylesheets/gallery.css">
+
 
 
 
@@ -17,15 +17,29 @@
 
 </head>
 <style>
-<body>
+body
 
-#myImg {
+h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  text-align: center;
+  margin-top: 70px;
+}
+hr {
+  border-color:rgb(177, 16, 5);
+  margin-right: 30%;
+  margin-left: 30%;
+  border-width: 3px;
+
+}
+img {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
+img:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {
@@ -163,7 +177,7 @@
 
 
   <!--navbar -->
-  <nav class="navbar navbar-default" data-spy="affix" data-offset-top="700">
+  <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!--making it good for smaller screens-->
     <div class="navbar-header">
@@ -183,34 +197,22 @@
   </form>
       <!--Home button-->
       <ul class="nav navbar-nav navbar-left">
-       <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+       <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
    </ul>
   </div>
+</div>
+</nav>
 
+<h1>Gallery</h1><hr>
+<div class="row">
+  <div class="col-md-4">
 
+<img id="myImg" src="pictures/gallery_one.jpg" alt="This is one example" width="500" height="400">
+</div>
+<div class="col-md-4">
+<img id="myImg2" src="pictures/gallery_two.jpg" alt="This is one example" width="500" height="400">
+</div>
 
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#section1">About Us</a></li>
-        <li><a href="#section2">Our boards</a></li>
-        <li><a href="#section3">The Process</a></li>
-        <li><a href="#section4">Contact us</a></li>
-      </ul>
-
-
-
-
-
-    </div>
-
-  </div>
-  </nav>
-
-<h2>Image Modal</h2>
-<p>In this example, we use CSS to create a modal (dialog box) that is hidden by default.</p>
-<p>We use JavaScript to trigger the modal and to display the current image inside the modal when it is clicked on. Also note that we use the value from the image's "alt" attribute as an image caption text inside the modal.</p>
-
-<img id="myImg" src="pictures/gallery_one.jpg" alt="Trolltunga, Norway" width="300" height="200">
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -225,6 +227,14 @@ var modal = document.getElementById('myModal');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('myImg2');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
