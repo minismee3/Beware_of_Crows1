@@ -15,22 +15,30 @@
 .navbar-nav li {
   margin-right: 10px;
 }
-input.glyphicon-search {
-    width: 130px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    margin-right: 20px;
-    font-size: 16px;
-    background-image: url("../pictures/search.png");
-    background-repeat: no-repeat;
-    background-position: 10px 10px;
-    background-size: 20px 30px;
-    background-color: white;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
+
+#demo-2 input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
 }
+#demo-2 input[type=search]:hover {
+	background-color: #fff;
+}
+#demo-2 input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+#demo-2 input:-moz-placeholder {
+	color: transparent;
+}
+#demo-2 input::-webkit-input-placeholder {
+	color: transparent;
+}
+
 
 input[type=text]:focus {
     width: 20%;
@@ -52,5 +60,5 @@ input[type=text]:focus {
     }
 }
 #navbar2 {
-  
+
 }
