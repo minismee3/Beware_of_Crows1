@@ -11,7 +11,7 @@
 
 #section3 h1 {
   text-transform: uppercase;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.15em;
   font-size: 50px;
   text-align: center;
 }
@@ -22,5 +22,5 @@
   margin-right: 200px;
   margin-left: 200px;
   border-width: 3px;
-  
+
 }
