@@ -6,8 +6,8 @@
 }
 
 #section3 img#small {
-  height: *;
   width:400px;
+  height: "*";
   align: middle;
   margin-top: 40px;
 }
