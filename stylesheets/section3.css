@@ -5,6 +5,13 @@
   margin-top: 40px;
 }
 
+#section3 img#small {
+  height: 400px;
+  width:400px;
+  align: middle;
+  margin-top: 40px;
+}
+
 #section3 {
   padding-top: 100px;
 }
