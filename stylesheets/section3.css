@@ -5,7 +5,7 @@
   margin-top: 40px;
 }
 
-#section3 img.small {
+#section3 img#small {
   height: 400px;
   width:400px;
   align: middle;
