@@ -15,11 +15,12 @@
   margin-right: 100px;
   margin-left: 100px;
   border-width: 5px;
-  
+
 }
 #section1 img{
-  height: 400px;
-  width:100%;
+    width:100%;
+  height: "*";
+
 
 
 }
