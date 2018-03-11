@@ -1,16 +1,11 @@
 #section3 img {
-  height: 400px;
-  width:100%;
-  align: middle;
-  margin-top: 40px;
-}
-
-#section3 img#small {
   width:400px;
   height: "*";
   align: middle;
   margin-top: 40px;
 }
+
+
 
 #section3 {
   padding-top: 100px;
