@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="stylesheets/section3.css">
   <link rel="stylesheet" href="stylesheets/section4.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Timmana" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="​https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js​"></script>
@@ -29,7 +29,7 @@
 </head>
 
 <!-- Navbar changes when scrolling -->
-<body data-spy="scroll" data-target=".navbar" data-offset: "100px">
+<body data-spy="scroll" data-target=".navbar" data-offset: "130px">
 
   <!-- Carousel -->
   <div class="top">
@@ -209,27 +209,32 @@
             <div class="container">
               <h1>Contact Us!</h1>
               <hr>
-              <p>For any enquiries, drop us an email or Facebook message, or give us a call.</p>
+              <p>For more information, you can use the form below to get in contact with us.</br> Try and include as much information as you can to give us an idea of what you're after, and feel free to attach photos of any design ideas.</p>
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                   <form class="form-horizontal">
                     <div class="form-group">
 
-                      <input type="text" class="form-control" id="name_input" placeholder="Name">
+                      <input type="text" class="form-control" id="name_input" placeholder="Name" style=height:40px;>
                     </div>
                     <div class="form-group">
 
-                      <input type="email" class="form-control" id="email_input" placeholder="Email">
+                      <input type="email" class="form-control" id="email_input" placeholder="Email" style=height:40px;>
                     </div>
                     <div class="form-group ">
 
-                     <textarea  class="form-control" placeholder="Description" style="height:200px;"></textarea>
+                     <textarea  class="form-control" placeholder="Description" style="height:300px;"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-default">Send</button>
+                    <div class="form-group">
+                    <label class="btn btn-default btn-file"> Upload Files <input type="file" style="display: none;"></label></br>
+                    <button type="submit" class="btn btn-default"><strong>Send</strong></button>
+                  </div>
                   </form>
-                  <label class="btn btn-default btn-file"> Upload Files <input type="file" style="display: none;"></label>
-<a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-instagram"></a>
+                </br>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+
+
 </div>
 </br>
 
@@ -241,7 +246,7 @@
               </div>
             </div>
 
-          </div>
+
 
       </section>
     </div>
