@@ -36,3 +36,9 @@
   border-width: 3px;
 
 }
+h2 {
+  display: inline-block;
+  font-size: 22px;
+  text-transform: uppercase;
+  
+}
