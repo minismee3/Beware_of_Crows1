@@ -1,28 +1,34 @@
 .navbar  {
-  font-size: 20px;
+  font-size: 25px;
   height: 60px;
   top: 0;
   z-index: 10;
   width: 100%;
-  padding-top:5px;
+  padding-top:8px;
   box-shadow:10px 10px 10px gray;
   text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+}
 
 }
 .navbar.container{
   width:100%;
 }
 .navbar-nav li {
-  margin-right: 10px;
+  margin-right: 70px;
 
 }
 
+.glyphicon-home {
+  font-size: 40px;
+  position: absolute;
+  right: 5;
 }
 
 
 }
 .navbar-left {
-  margin-right: 40px;
+  margin-right: 70px;
 
 }
 
