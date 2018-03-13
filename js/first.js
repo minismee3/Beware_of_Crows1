@@ -24,13 +24,8 @@ $('#myCarousel').each(function() {
             });
         });
 
-        glio.init(
-              [ 'top-left', function () {
-                  alert('this is top-left');
-                }
-              ],
-              [ 'top-right', function () {
-                  alert('this is top-right');
-                }
-              ]
-            );
+        $("button3").click(function(){
+            var color = clicked ? 'red' : 'blue';
+            $(this).css('background-color', color);
+            clicked = !clicked;
+        });

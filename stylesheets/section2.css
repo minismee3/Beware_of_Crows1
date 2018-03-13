@@ -1,8 +1,8 @@
 #section2 {
  width: 100%;
- padding-top: 130px;
+ padding-top: 100px;
  padding-bottom: 40px;
-   font-family: 'Josefin Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
 }
 #section2 h1 {
   font-size: 50px;
@@ -17,7 +17,7 @@
   border-width: 3px;
 }
 #gallery {
-  margin-top: 40px;
+  margin-top: 10px;
 
   height: 1300px;
   width:100%;

@@ -1,5 +1,8 @@
 .footer {
   text-align: center;
+
+
+  bottom: 0;
 }
 .footer h1 {
   text-transform: uppercase;
@@ -12,4 +15,15 @@
 .footer p {
   margin-top: 10px;
   font-size: 20px;
+  margin-bottom: 1px;
+}
+.footer_module {
+  margin-bottom: 30px;
+}
+.copyright {
+  bottom: 0;
+  background-color:  rgb(144, 115, 144);
+  color: white;
+  display:block;
+  width:100%;
 }
