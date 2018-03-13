@@ -3,17 +3,18 @@
   text-align: center;
   line-height: 200%;
   padding-top:80px;
-  font-size:27px;
+  font-size:25px;
   font-family: 'Josefin Sans', sans-serif;
 }
 #section1 p {
-  margin-top:30px;
+  margin-top:10px;
   text-align: justify;
 }
 #section1 h1 {
   text-transform: uppercase;
   letter-spacing: 0.25em;
   font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #section1 hr {
   border-color:rgb(250, 159, 234);
@@ -26,6 +27,12 @@
   width:100%;
   height: "*";
 
-
+}
+#logo {
+  margin-top: 10px;
+}
+#weecrow2 {
+  margin-top: 0;
+}
 
 }

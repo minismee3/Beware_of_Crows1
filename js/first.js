@@ -24,8 +24,13 @@ $('#myCarousel').each(function() {
             });
         });
 
-
-
-         $(function(){
-      $("#includedContent").load("/trial.html");
-    });
+        glio.init(
+              [ 'top-left', function () {
+                  alert('this is top-left');
+                }
+              ],
+              [ 'top-right', function () {
+                  alert('this is top-right');
+                }
+              ]
+            );
