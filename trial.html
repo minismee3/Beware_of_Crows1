@@ -2,8 +2,24 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/first.js"></script>
+<script defer src="js/fontawesome-all.js"></script>
+<script>$( "#myelement" ).click(function() {
+    if($('#another-element:visible').length)
+        $('#another-element').hide("slide", { direction: "right" }, 1000);
+    else
+        $('#another-element').show("slide", { direction: "right" }, 1000);
+});
+</script>
 </head>
 <body>
-  <p>hi</p>
+  <button id="myelement">Toggle</button>
+  <p id="another-element">
+    This is the paragraph to end all paragraphs.  You
+    should feel <em>lucky</em> to have seen such a paragraph in
+    your life.  Congratulations!
+  </p>
 </body>
 </html>

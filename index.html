@@ -20,18 +20,17 @@
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Timmana" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
+
   <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="​https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js​"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gliojs/0.0.7/glio.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="js/first.js"></script>
   <script defer src="js/fontawesome-all.js"></script>
 
 </head>
 
 <!-- Navbar changes when scrolling -->
-<body data-spy="scroll" data-target=".navbar" data-offset: "10px">
+<body data-spy="scroll" data-target=".navbar" data-offset: "50px">
 
   <!-- Carousel -->
   <div class="top">
@@ -188,30 +187,83 @@
       </div>
     </div>
   </div>
-<div class="container">
-  <div class="col-md-8 col-md-offset-2">
-
-
-</div>
-</div>
 
 <div class="container">
-  <div class="col-md-8 col-md-offset-2">
-    <div class="w3-dropdown-hover">Step One
-    <div class="w3-dropdown-content w3-card-4" style="width:100%">
-      <img src="img_london.jpg" alt="Step1" style="width:100%">
-      <div class="w3-container">
-        <p>London is the capital city of England.</p>
-        <p>It is the most populous city in the UK.</p>
+  <div class="row">
+    <div class="content">
+      <div class="panel-group" id="accordion">
+
+      <div class="group_one">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+              <strong>Step 1: </strong>Choosing the Board </a></h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="panel-content">
+                <p>We pride ourselves on choosing the best quality boards</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <div class="group_two">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+            <strong>Step 2: </strong> Stripping & Priming</a></h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="panel-content">
+                  <p> prepare the boards like this</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group_one">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+            <strong>Step 3: </strong> Drawing & Painting</a></h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="panel-content">
+                <p>Paint the boards like this</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group_two">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+            <strong>Step 4: </strong> Packaging & Posting</a></h4>
+          </div>
+          <div id="collapseFour" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="panel-content">
+                <p>Send the board like this</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+                </div>
+            </div>
+        </div>
     </div>
   </div>
 
 
-
-
-</div>
-</div>
 
 
 <div id="section4">
@@ -238,7 +290,7 @@
                     </div>
                     <div class="form-group">
                     <label class="btn btn-default btn-file"> Upload Files <input type="file" style="display: none;"></label></br>
-                    <button type="submit" class="btn btn-default"><strong>Send</strong></button>
+                    <label class="btn btn-default send"><strong>Send</strong></label>
                   </div>
                   </form>
                 </br>
@@ -252,7 +304,7 @@
                </a>
 
 </div>
-</br>
+
 
 
 
@@ -268,11 +320,11 @@
 
 
 </div>
-<hr style="border-width:5px;">
+
 <!--footer-->
 <div class="footer">
 
-  <img src="pictures/skatergirl.jpg" style="height:400px; widht=100%">
+  <img src="pictures/skatergirl.jpg" style="height:400px;  margin-top:160px;">
 			<div class="container">
         <div class="row">
           <div class="col-md-4">

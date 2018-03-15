@@ -3,8 +3,16 @@
  padding-top: 100px;
  padding-bottom: 40px;
 font-family: 'Josefin Sans', sans-serif;
+min-height: 100%;
+background-image: url("../pictures/bird_doodle2.jpg");
+background-position: 14% 0%;
+background-repeat: no-repeat;
 }
 
+#section3 .container {
+  min-height: 100%;
+
+}
 #section2 h1 {
   font-size: 50px;
   text-transform: uppercase;
@@ -13,8 +21,8 @@ font-family: 'Josefin Sans', sans-serif;
 }
 #section2 hr {
   border-color:rgb(23, 78, 5);
-  margin-right: 250px;
-  margin-left: 250px;
+  margin-right: 32%;
+  margin-left: 32%;
   border-width: 3px;
 
 

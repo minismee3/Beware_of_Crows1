@@ -1,26 +1,21 @@
+#section3 .container {
+  height:100%;
 
-#section3 img {
-  width:100%;
-  height: "*";
-  align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
 }
 
-#section3 p {
 
 
-  text-align: justify;
 
-  font-size:20px;
-}
 
 #section3 {
   padding-top: 100px;
     font-family: 'Josefin Sans', sans-serif;
     background-image: url(../pictures/bird_doodle3.jpg);
-    background-position: 24% 0%;
+    background-position: 50% 90%;
     background-repeat: no-repeat;
+    height: 100%;
+    margin-bottom: -110px;
+
 }
 
 
@@ -38,22 +33,74 @@
   margin-right: 30%;
   margin-left: 30%;
   border-width: 3px;
-
 }
 #section3 h2 {
-  display: inline-block;
-  font-size: 24px;
-  text-transform: uppercase;
+  font-size: 30px;
 }
-#section3 .row{
-  text-align: center;
+.content {
+
+  max-width: 450px;
+  max-height:800px;
+  margin-left: 20%;
+  padding-bottom: -800px;
 
 }
+.panel-group {
+    width:450px;
+    z-index: 2000;
+    -webkit-backface-visibility: visible;
+    -webkit-transform: translateX(-150%) rotate(-90deg);
+    -webkit-transform-origin: right top;
+    -moz-transform: translateX(-150%) rotate(-90deg);
+    -moz-transform-origin: right top;
+    -o-transform: translateX(-150%) rotate(-90deg);
+    -o-transform-origin: right top;
+    transform: translateX(-150%) rotate(-90deg);
+    transform-origin: right top;
+}
+.panel-heading {
+    width: 450px;
+    box-shadow:  5px 5px 5px gray;
 
-#section3 p {
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
-.w3-container {
-  width: 100%;
+.panel-title {
+    height:50px;
+    font-size: 25px;
+
 }
+.panel-title a {
+    float:left;
+    text-decoration:none;
+    padding: 10px;
+    margin: -10px ;
+
+}
+.panel-body {
+    height:800px;
+    width: 450px;
+    font-size: 16px;
+
+
+}
+.panel-group .panel-content {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateX(100%) rotate(90deg);
+    -webkit-transform-origin: left center;
+    -moz-transform: translateX(100%) rotate(90deg);
+    -moz-transform-origin: left top;
+    -o-transform: translateX(100%) rotate(90deg);
+    -o-transform-origin: left center;
+    transform: translateX(100%) rotate(90deg);
+    transform-origin: left center;
+}
+.panel-group .panel .panel-content {
+    width: 400px;
+    position: absolute;
+
+}
+.group_one .panel-heading {
+  background-color: rgb(221, 202, 202);
+
+}
+.group_two .panel-heading {
+  background-color: white;

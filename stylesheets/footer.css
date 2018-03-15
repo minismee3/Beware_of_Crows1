@@ -1,6 +1,8 @@
 .footer {
   text-align: center;
-
+    background-image: url("../pictures/creepyskate_doodle.jpg");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
 
   bottom: 0;
 }
@@ -23,8 +25,8 @@
 .copyright {
   margin-top: 70px;
   bottom: 0;
-  background-color:  rgb(144, 115, 144);
-  color: white;
+  background-color:  rgb(221, 202, 202);
+  color: black;
   display:block;
   width:100%;
 }
