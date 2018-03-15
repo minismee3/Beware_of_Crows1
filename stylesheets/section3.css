@@ -49,13 +49,13 @@
     width:430px;
     z-index: 2000;
     -webkit-backface-visibility: visible;
-    -webkit-transform: translateX(-150%) rotate(-90deg);
+    -webkit-transform: translateX(-100%) rotate(-90deg);
     -webkit-transform-origin: right top;
-    -moz-transform: translateX(-150%) rotate(-90deg);
+    -moz-transform: translateX(-100%) rotate(-90deg);
     -moz-transform-origin: right top;
-    -o-transform: translateX(-150%) rotate(-90deg);
+    -o-transform: translateX(-100%) rotate(-90deg);
     -o-transform-origin: right top;
-    transform: translateX(-150%) rotate(-90deg);
+    transform: translateX(-100%) rotate(-90deg);
     transform-origin: right top;
 }
 .panel-heading {
