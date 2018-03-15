@@ -190,25 +190,90 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-4">
-   <button data-toggle="collapse" data-target="#step1" class="text-left"><h2><strong>Step One:</strong> Collaboration & Design</h2></button>
-   <div id="step1" class="collapse">
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-   </div>
- </div>
-<div class="row">
- <div class="col-md-3">
+    <div class="content">
+      <div class="panel-group" id="accordion">
 
- <button data-toggle="collapse" data-target="#step2" class="text-left"><h2><strong>Step Two:</strong> Choosing the Board</h2></button>
- <div id="step2" class="collapse">
-   <p>Here at Beware of Crows we choose only the very best quality of boards for our customers. As a result, each board is carefully hand-selected by us.</p>
- </div>
+      <div class="group_one">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+              <strong>Step 1: </strong>Choosing the Board </a></h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="panel-content">
+                <p>We pride ourselves on choosing the best quality boards, which
+                 is why each board is personally chosen by us  according
+                 to your own tastes.</p>
+                <img src="pictures/benchskates.jpg" style="height:300px; width:100%">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group_two">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+            <strong>Step 2: </strong> Stripping & Priming</a></h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="panel-content" >
+
+                  <p>When the perfect board's been chosen, we then strip off
+          all the old paint or graphics and sand it down to its wooden grain.
+          This is all sealed up with a sander sealer to ensure the high quality of the wood.</br></br>
+          After 24 hours, the sealer is dry and the board is ready to be primed for painting
+          We use four coats of white primer to make sure we have a smooth
+          surface for painting, and that the colours really pop.</p>
+
+          <img src="pictures/process1.jpg" style="height:180px; width:100%">
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group_one">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+            <strong>Step 3: </strong> Drawing & Painting</a></h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="panel-content">
+                <p>After priming, we pencilsketch the design straight onto the board.
+                  We use high quality, bright acrylic paints t</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group_two">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+            <strong>Step 4: </strong> Packaging & Posting</a></h4>
+          </div>
+          <div id="collapseFour" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="panel-content">
+                <p>Send the board like this</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
                 </div>
             </div>
         </div>
     </div>
-
+  </div>
 
 
 
@@ -233,7 +298,7 @@
                     </div>
                     <div class="form-group ">
 
-                     <textarea  class="form-control" placeholder="Description" style="height:200px;"></textarea>
+                     <textarea  class="form-control" placeholder="Description" style="height:300px;"></textarea>
                     </div>
                     <div class="form-group">
                     <label class="btn btn-default btn-file"> Upload Files <input type="file" style="display: none;"></label></br>
