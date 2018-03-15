@@ -18,7 +18,9 @@
 #section3 {
   padding-top: 100px;
     font-family: 'Josefin Sans', sans-serif;
-
+    background-image: url(../pictures/bird_doodle3.jpg);
+    background-position: 24% 0%;
+    background-repeat: no-repeat;
 }
 
 
@@ -33,8 +35,8 @@
 /*the line under the heading*/
 #section3 hr {
   border-color:rgb(255, 161, 0);
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-right: 30%;
+  margin-left: 30%;
   border-width: 3px;
 
 }
