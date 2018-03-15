@@ -47,65 +47,11 @@
   text-align: center;
 
 }
-.button3 {
-  width: 85%;
-  padding-left: 20px;
-  margin-top:20px;
-  box-shadow: 3px 3px #999;
-  transition: all 0.5s;
-  cursor: pointer;
 
-}
-.button3 h2 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button3 h2:after {
-  font-family: FontAwesome;
-  content: '\f103';
-  position: relative;
-  opacity: 0;
-  top: 0;
-  right: 70px;
-  transition: 0.6s;
-}
-
-.button3:hover {
-  padding-right: 10px;
-  background-color: rgb(154, 81, 105);
-}
-
-.button3:hover h2:after {
-  opacity: 1;
-  right: -20px;
-}
 #section3 p {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-#section3 ul {
-    margin: 0;
-    padding: 0;
+.w3-container {
+  width: 100%;
 }
-ul li {
-    display: inline-block;
-    padding: 0 10px;
-}
-.panel {
-    display: none;
-    width: 100%;
-    background: #ccc;
-    min-height: 400px;
-}
-#panel-2.panel {
-    background: #ffcc00;
-}
-li a {
-    display: block;
-}
-h2 {
-    margin: 0;
-    padding: 0;
