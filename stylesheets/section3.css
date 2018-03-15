@@ -86,4 +86,26 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+#section3 ul {
+    margin: 0;
+    padding: 0;
 }
+ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.panel {
+    display: none;
+    width: 100%;
+    background: #ccc;
+    min-height: 400px;
+}
+#panel-2.panel {
+    background: #ffcc00;
+}
+li a {
+    display: block;
+}
+h2 {
+    margin: 0;
+    padding: 0;
